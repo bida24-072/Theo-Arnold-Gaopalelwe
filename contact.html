@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Theo Arnold Gaopalelwe</title>
+    <meta name="description" content="Get in touch with Theo Arnold Gaopalelwe — Developer & Data Analyst based in Gaborone, Botswana.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <strong>Available for work</strong> · Attachment window: 11 Jan – 30 Jun 2027 · Based in Gaborone
+    </div>
+
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                Theo Gaopalelwe
+                <small>Developer · Data Analyst</small>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="nav-cta">
+                Let's Talk <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- PAGE HEADER -->
+        <section class="page-header">
+            <div class="page-header-inner">
+                <span class="section-label">Contact</span>
+                <h1>Let's build something<br><em>worth talking about.</em></h1>
+                <p>Whether you're an employer, a client, or just curious — I'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <div class="container">
+            <div class="contact-grid">
+
+                <div class="contact-info">
+                    <h2>Reach me <em>directly.</em></h2>
+                    <p>Available for freelance projects, attachments, and full-time roles from January 2027. WhatsApp is fastest — I usually reply within an hour.</p>
+
+                    <div class="contact-channels">
+
+                        <a href="https://wa.me/26772706831" target="_blank" rel="noopener" class="contact-channel">
+                            <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="contact-channel-info">
+                                <span class="contact-channel-label">WhatsApp · Fastest Reply</span>
+                                <span class="contact-channel-value">+267 72 706 831</span>
+                            </div>
+                        </a>
+
+                        <a href="mailto:bida24-072@thuto.bac.ac.bw" class="contact-channel">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-channel-info">
+                                <span class="contact-channel-label">Email</span>
+                                <span class="contact-channel-value">bida24-072@thuto.bac.ac.bw</span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/bida24-072" target="_blank" rel="noopener" class="contact-channel">
+                            <div class="icon"><i class="fab fa-github"></i></div>
+                            <div class="contact-channel-info">
+                                <span class="contact-channel-label">GitHub</span>
+                                <span class="contact-channel-value">github.com/bida24-072</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-channel" style="cursor: default;">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-channel-info">
+                                <span class="contact-channel-label">Location</span>
+                                <span class="contact-channel-value">Gaborone, Botswana</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-channel" style="cursor: default;">
+                            <div class="icon"><i class="fas fa-calendar-check"></i></div>
+                            <div class="contact-channel-info">
+                                <span class="contact-channel-label">Availability</span>
+                                <span class="contact-channel-value">Jan – Jun 2027 (Attachment)</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send a message</h3>
+                    <form onsubmit="event.preventDefault(); alert('Thank you for reaching out! I\'ll get back to you within 24 hours.'); this.reset();">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="c-name">Your Name</label>
+                                <input type="text" id="c-name" required placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="c-email">Email</label>
+                                <input type="email" id="c-email" required placeholder="you@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="c-phone">Phone / WhatsApp</label>
+                            <input type="tel" id="c-phone" placeholder="+267 ...">
+                        </div>
+                        <div class="form-group">
+                            <label for="c-subject">What's this about?</label>
+                            <select id="c-subject">
+                                <option>General Enquiry</option>
+                                <option>Freelance Project</option>
+                                <option>Attachment Opportunity</option>
+                                <option>Full-Time Role</option>
+                                <option>Collaboration</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="c-message">Message</label>
+                            <textarea id="c-message" rows="5" required placeholder="Tell me about your project or opportunity..."></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%; justify-content: center;">Send Message <i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>Theo <span>Gaopalelwe</span></h3>
+                    <small>DEVELOPER · DATA ANALYST · GABORONE</small>
+                    <p>Building digital products for Botswana businesses. Currently a Business Intelligence & Data Analytics student at BAC.</p>
+                    <div class="footer-socials">
+                        <a href="https://github.com/bida24-072" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/26772706831" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:bida24-072@thuto.bac.ac.bw"><i class="fas fa-envelope"></i></a>
+                        <a href="#" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="work.html">Web Development</a></li>
+                        <li><a href="work.html">Data Analytics</a></li>
+                        <li><a href="work.html">E-commerce</a></li>
+                        <li><a href="work.html">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Gaborone, Botswana</li>
+                        <li>+267 72 706 831</li>
+                        <li>bida24-072@thuto.bac.ac.bw</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 Theo Arnold Gaopalelwe</span>
+                <span>Built in Gaborone · Made in Botswana 🇧🇼</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
